@@ -1,21 +1,29 @@
 {
-  "name": "textticker",
+  "name": "terminal-textticker",
   "version": "0.0.1",
-  "description": "A simple text ticker",
+  "description": "A scrolling text ticker in terminal",
   "main": "index.js",
+  "scripts": {
+    "example": "node example/index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/miguelmota/node-textticker"
+    "url": "https://github.com/miguelmota/terminal-textticker"
   },
   "keywords": [
-    "text ticker"
+    "text",
+    "ticker",
+    "scrolling",
+    "terminal",
+    "console",
+    "cli"
   ],
   "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/miguelmota/node-textticker/issues"
+    "url": "https://github.com/miguelmota/terminal-textticker/issues"
   },
-  "homepage": "https://github.com/miguelmota/node-textticker",
+  "homepage": "https://github.com/miguelmota/terminal-textticker",
   "dependencies": {
 
   }

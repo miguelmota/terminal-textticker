@@ -1,21 +1,21 @@
 # textticker
 
-A simple text ticker for the console.
+> A scrolling text ticker in terminal
 
 # Demo
 
-It's pretty much behaves the same as the browser version, [http://lab.moogs.io/textticker](http://lab.moogs.io/textticker).
+<img src="https://raw.githubusercontent.com/miguelmota/terminal-textticker/master/screenshot.gif" />
 
-# Install
+## Install
 
 ```bash
-npm install textticker
+npm install terminal-textticker
 ```
 
-# Usage
+## Usage
 
 ```javascript
-var textTicker = require('textticker');
+var textTicker = require('terminal-textticker');
 
 var sayings = [
   'Programs must be written for people to read, and only incidentally for machines to execute.',
@@ -33,10 +33,14 @@ textTicker({
     var nextSaying = index <= 1 ? (index += 1, sayings[index]) : (index = 0, sayings[index]);
     textTicker.setText(nextSaying);
     textTicker.reload();
-  }, 4000);
+  }, 4e3);
 });
 
 ```
+
+# Resources
+
+The browser version of is also available, [textticker](https://github.com/miguelmota/textticker).
 
 # License
 
