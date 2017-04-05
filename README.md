@@ -1,4 +1,4 @@
-# textticker
+# terminal-textticker
 
 > A scrolling text ticker in terminal
 
