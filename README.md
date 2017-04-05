@@ -40,7 +40,7 @@ textTicker({
 
 # Resources
 
-The browser version of is also available, [textticker](https://github.com/miguelmota/textticker).
+The browser version of this is also available, [textticker](https://github.com/miguelmota/textticker).
 
 # License
 
